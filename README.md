@@ -2,6 +2,7 @@
 2. Fork the repository for [Django REST Task 3](https://github.com/JoinCODED/REST_task_03/) in JoinCODED’s Github and Clone it.
 3. Install the packages from the requirements file.
 4. Create a login api. [This](https://getblimp.github.io/django-rest-framework-jwt/) will help.
+   * Replace the api in the **frontends** `login_view` view with this api.
 4. Create a Restaurant create API view:
     * It should use the same serializer as the update view.
     * The `flight` should get assigned automatically to the booking. The flight id should be retrieved from the url.
