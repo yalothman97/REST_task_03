@@ -3,7 +3,7 @@
 3. Install the packages from the requirements file.
 4. Create a login api. [This](https://getblimp.github.io/django-rest-framework-jwt/) will help.
    * Replace the api in the **frontends** `login_view` view with this api.
-4. Create a Restaurant create API view:
+4. Create a Booking create API view:
     * It should use the same serializer as the update view.
     * The `flight` should get assigned automatically to the booking. The flight id should be retrieved from the url.
     * The `user` should get assigned automatically to the booking. The **logged in user** who is creating the booking should get assigned as the `user`.
